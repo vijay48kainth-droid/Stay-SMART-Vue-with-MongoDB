@@ -1,0 +1,292 @@
+
+/*div{
+    border:1px solid black;
+    margin:5px;
+}
+*/
+
+
+body{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+}
+
+.space { /* space is placed between the sections.*/
+    margin:5%;
+
+    display:flex;
+    justify-content: center;
+    font-size:large;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+  
+    .S {
+        color:hsl(0, 98%, 55%);
+    }
+    .M {
+        color:#faaf23;
+    }
+    .A {
+        color:#eeee3b;
+    }
+    .R {
+        color: limegreen;
+    }
+
+    .T {
+        color:lightskyblue;
+    }
+
+    /* r a i n b o w */
+
+    #r {
+        background-color:red;
+        color:white;
+        font-family: 'Courier New', Courier, monospace;
+               
+    }
+    #a {
+        background-color:orange;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #i {
+        background-color:yellow;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #n {
+        background-color: green;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    #b {
+        background-color: blue;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    #o {
+        background-color: rgb(91, 0, 130);
+        color:white;
+        font-family:'Times New Roman', Times, serif
+
+    }
+    
+    
+    #w {
+        background-color:violet;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+
+
+    nav {
+        display:flex;
+        justify-content: center;
+        background-color: darkblue;
+        padding: 15px 20px;
+    }
+
+    nav a {
+        text-decoration:none;
+        color:bisque;
+        padding:10px 14px;
+        border-radius: 6px;
+
+    }
+
+    nav a:hover {
+        cursor:pointer;
+    }
+
+    #nav-search {
+        input {
+        width:50%;
+        border-color:1px solid bisque;
+        
+        padding: 6px 10px;
+        align-items:baseline;
+        }
+        button{
+            color:bisque;
+            
+            font-size: 18px;
+            padding: 5px 10px;
+            color: bisque;
+            border: 1px solid bisque;
+            border-radius: 20px;
+            background-color: navy;
+            cursor:pointer;
+        }
+    }
+    
+
+    nav ul {
+        display:flex;
+        display:center;
+        list-style: none;
+        gap:20px;
+        padding:0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:larger;
+        color:black;
+        align-items: center;
+    }
+
+    .home-high :hover{
+        background-color:#483d8b;
+        color:white;
+    }
+    
+    .do-high :hover{
+        background-color:red;
+        color:white;
+    }
+
+    .dont-high :hover{
+        background-color:green;
+        color:white;
+    }
+
+    .internet-high :hover{
+        background-color:skyblue;
+        color:navy;
+    }
+
+    .report-high :hover{
+        background-color:yellow;
+        color:black;
+    }
+
+    .high :hover{
+        background-color:bisque;
+        color:navy;
+    }
+
+
+    #header {
+        display:flex;
+        size:30px;
+        color:white;
+        background-color: navy;
+        display:center;
+        
+        border:1px solid black;
+        margin: 5px;
+        border-top-left-radius:12px;
+        border-bottom-left-radius: 12px;
+        justify-content: space-between;
+    }
+
+    #logo-headtag {
+        background-color: black;
+        padding:10px;
+        font-size: larger;
+        border-radius:12px;
+        border:5px solid grey;
+        margin: 5px;
+        
+    }
+
+
+    #Search-box{
+        border-radius: 25px;
+        max-width:200px;
+    }
+
+
+    .shared-font-style {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+
+    .email-container{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:large;
+        font-style:white;
+        padding:20px;
+        display:flex;
+        justify-content: flex-start;
+        gap:40%;
+        div{
+            display:flex;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    }
+
+    .email-thanks {
+        padding-right:160px;
+
+    }
+    .email-thanks-message {
+        border-radius:999px;
+        border-style:solid;
+        border-color:white;
+        background-color:black;
+        color:white;
+        text-align: center;
+        width:70%;
+        padding-bottom: 2px;
+        margin-top: 0;
+    }
+    
+    .email-image{
+        width:10%;
+        padding-right:10%;
+        margin:0;
+    }
+
+    i {
+        font-size: 20px;
+    }
+
+    .web-border{
+        display:flex;
+        flex-direction:column;
+    }
+
+     .email-container input,.email-container button{
+        box-sizing: border-box;
+        border-radius: 15px; /* This curves the border */
+        border-style: solid;
+        border-color: azure;
+        border:2px solid white;
+        height: 30px;
+        padding:5px;
+        color:white;
+     }
+
+    .email-container input { /* This is a nested selector*/
+
+        margin:auto; /* margin is space between 2 html elements */
+        border-top-right-radius: 0 ; /* This removes the rounded ends */
+        border-bottom-right-radius: 0;
+        border-right:0;
+        border-right-color:transparent;
+        background-color:transparent;
+    }
+
+    .email-container input::placeholder{
+        color:white;
+    }
+
+    .email-container button{
+        border-top-left-radius: 0;
+        border-bottom-left-radius:0;
+        border-left:none;
+        border-left-color:transparent;
+        background-color:transparent;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        cursor: pointer;
+    }
+
+    footer{
+        margin:10px;
+
+    }

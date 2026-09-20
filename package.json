@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+        "@vue/cli-service": "^5.0.9",
+        "@vue/compiler-sfc": "^3.5.40",
+        "core-js": "^3.49.0",
+        "express": "^5.2.1",
+        "mongodb": "^7.6.0",
+        "vue": "^3.5.40",
+        "vue-router": "^5.3.0"
+    },
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "start": "node server.js"
+    }
+}
